@@ -1,2 +1,4 @@
-# LandingPage-HTML-CSS-JS
-Landing page project built with HTML, CSS and vanilla JavaScript to practice DOM manipulation and interactive elements.
+# Landing Page Project
+
+## About the Project
+This project was created to strengthen my JavaScript fundamentals by building a landing page layout, while also improving my workflow with Git and GitHub.
