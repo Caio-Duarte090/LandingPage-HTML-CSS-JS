@@ -12,5 +12,6 @@ Ultimately, this project demonstrates both my growing skills and my approach to 
 
 ## Updates
 
+- **v0.0.3** - Added feature section
 - **v0.0.2** – Added hero and products section 
 - **v0.0.1** – Initial commit: added project files and basic HTML navbar.
