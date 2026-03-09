@@ -23,7 +23,6 @@ html{
 body{
     font-family: 'Inter', sans-serif;
     text-align: center;
-    align-items: center;
     padding-top: 5rem;
     margin: 0;
 }
@@ -486,6 +485,199 @@ nav a:hover::after {
 .server-box:hover img {
     transform: scale(1.08) rotate(2deg);
     border-color: rgba(168, 85, 247, 0.3);
+}
+
+/* Contact Us section styling */
+#contact-us {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    padding: 5rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(56, 189, 248, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(14, 165, 233, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+#contact-us h2 {
+    font-size: 3rem;
+    background: linear-gradient(45deg, var(--accent), #0ea5e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 2rem 0 1rem;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+#contact-us h2::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 6px;
+    background: linear-gradient(90deg, var(--accent), #0ea5e9);
+    margin: 1rem auto;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+#contact-us > p {
+    color: var(--white);
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    font-weight: 300;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-info {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.8));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 300px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.contact-info:hover {
+    border-color: var(--accent);
+    box-shadow: 0 12px 40px rgba(56, 189, 248, 0.2);
+    transform: translateY(-5px);
+}
+
+.contact-info p {
+    color: var(--white);
+    font-size: 1rem;
+    margin: 1rem 0;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 350px;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.8));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form label {
+    color: var(--accent);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: var(--white);
+    padding: 0.875rem 1rem;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(248, 250, 252, 0.5);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: rgba(15, 23, 42, 0.8);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button {
+    background: var(--accent);
+    color: var(--primary);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-form button:hover {
+    background: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.6);
+}
+
+.contact-form button:active {
+    transform: translateY(-1px);
+}
+
+/* Responsive design for contact us */
+@media (max-width: 768px) {
+    #contact-us {
+        padding: 3rem 1rem;
+    }
+
+    #contact-us h2 {
+        font-size: 2rem;
+    }
+
+    .contact-container {
+        gap: 1.5rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
 }
 
 
