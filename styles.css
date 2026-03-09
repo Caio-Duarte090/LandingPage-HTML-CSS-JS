@@ -323,4 +323,3 @@ nav a:hover::after {
     transform: scale(1.05);
 }
 
-/* No generic container img rule - card images handled by .card-box img */
