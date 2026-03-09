@@ -10,6 +10,13 @@ Since I am in the early stages of learning JavaScript, this project also serves 
 
 Ultimately, this project demonstrates both my growing skills and my approach to learning through building, providing a tangible example of how I integrate new knowledge into real projects.
 
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+
 ## Updates
 - **v0.4.0** - Added gradient background to the product section and styled the features section
 - **v0.3.0** - Better products section
