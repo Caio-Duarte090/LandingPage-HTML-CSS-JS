@@ -11,6 +11,7 @@ Since I am in the early stages of learning JavaScript, this project also serves 
 Ultimately, this project demonstrates both my growing skills and my approach to learning through building, providing a tangible example of how I integrate new knowledge into real projects.
 
 ## Updates
+- **v0.3.0** - Better products section
 - **v0.2.0** - Styled hero section and made navbar better
 - **v0.1.1** - Styled product section and added images
 - **v0.1.0** - Styled navbar and links
