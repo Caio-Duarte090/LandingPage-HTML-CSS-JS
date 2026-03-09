@@ -18,6 +18,7 @@ Ultimately, this project demonstrates both my growing skills and my approach to 
 - Git
 
 ## Updates
+- **v1.0.0** - Added footer, main html and css done, ready to start JS
 - **v0.5.0** - Styled the contact-us section
 - **v0.4.0** - Added gradient background to the product section and styled the features section
 - **v0.3.0** - Better products section
