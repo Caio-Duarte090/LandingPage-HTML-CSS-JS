@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
@@ -24,13 +27,17 @@
       </nav>
     </header>
     <section id="hero">
-      <h1>Transform your tech</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quae
-        explicabo, minima soluta odio non.
-      </p>
-      <a href="#" class="btn-primary">Get Started</a>
-      <img src="" alt="" />
+        <div class="hero-img">
+            <img src="images/spaceman.png" alt="" />
+        </div>
+        <div class="hero-text">
+            <h1>Transform your tech</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quae
+                explicabo, minima soluta odio non.
+            </p>
+         <a href="#" class="btn-primary">Get Started</a>
+        </div>
     </section>
     <section id="products-section">
       <h2>The Best Products in the Market</h2>
@@ -39,21 +46,21 @@
         <a href="#">
           <div class="card-box">
             <h3>Graphic Cards</h3>
-            <img src="images/gpu.jpg" alt="">
+            <img src="images/gpu.jpg" alt="" />
             <p>Click to learn more about our graphic cards</p>
           </div>
         </a>
         <a href="#">
           <div class="card-box">
             <h3>Mother Boards</h3>
-            <img src="images/mother_board.jpg" alt="">
+            <img src="images/mother_board.jpg" alt="" />
             <p>Click to learn more about out mother boards</p>
           </div>
         </a>
         <a href="#">
           <div class="card-box">
             <h3>RAM</h3>
-            <img src="images/ram.jpg" alt="">
+            <img src="images/ram.jpg" alt="" />
             <p>Click to learn more about the best RAM in the market</p>
           </div>
         </a>
@@ -69,82 +76,94 @@
       </p>
       <div class="container-server">
         <a href="">
-            <div class="server-box">
-                <h3>Basic Plan</h3>
-                <img src="images/basic.png" alt="">
-                <p>Click and learn more about our <span>Basic Plan</span></p>
-            </div>
+          <div class="server-box">
+            <h3>Basic Plan</h3>
+            <img src="images/basic.png" alt="" />
+            <p>Click and learn more about our <span>Basic Plan</span></p>
+          </div>
         </a>
         <a href="">
-            <div class="server-box">
-                <h3>Intermediate Plan</h3>
-                <img src="images/intermediate.png" alt="">
-                <p>Click and learn more about our <span>Intermediate Plan</span></p>
-            </div>
+          <div class="server-box">
+            <h3>Intermediate Plan</h3>
+            <img src="images/intermediate.png" alt="" />
+            <p>Click and learn more about our <span>Intermediate Plan</span></p>
+          </div>
         </a>
         <a href="">
-            <div class="server-box">
-                <h3>Advanced Plan</h3>
-                <img src="images/advanced.png" alt="">
-                <p>Click and learn more about our <span>Advanced Plan</span></p>
-            </div>
+          <div class="server-box">
+            <h3>Advanced Plan</h3>
+            <img src="images/advanced.png" alt="" />
+            <p>Click and learn more about our <span>Advanced Plan</span></p>
+          </div>
         </a>
       </div>
     </section>
     <section id="contact-us">
-        <h2>Contact Us</h2>
-        <p>Need a server solution?</p>
-        <p>Talk to our specialists today</p>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p>Email: contact@email.com</p>
-                <p>Phone: +1 555 555 5555</p>
-                <p>Location: New York, USA</p>
-            </div>
-            <form class="contact-form">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email Here">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name Here">
-                <textarea name="message" id="message" placeholder="Type your message here"></textarea>
-                <button type="submit">Send a Message</button>
-            </form>
+      <h2>Contact Us</h2>
+      <p>Need a server solution?</p>
+      <p>Talk to our specialists today</p>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>Email: contact@email.com</p>
+          <p>Phone: +1 555 555 5555</p>
+          <p>Location: New York, USA</p>
         </div>
+        <form class="contact-form">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email Here"
+          />
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name Here"
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Type your message here"
+          ></textarea>
+          <button type="submit">Send a Message</button>
+        </form>
+      </div>
     </section>
     <footer>
-  <div class="footer-container">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Ace</h3>
+          <p>Reliable server farm solutions for businesses worldwide.</p>
+        </div>
 
-    <div class="footer-about">
-      <h3>Ace</h3>
-      <p>Reliable server farm solutions for businesses worldwide.</p>
-    </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#">Home</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
+        </div>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <a href="#">Home</a>
-      <a href="#">Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Contact</a>
-    </div>
+        <div class="footer-services">
+          <h4>Services</h4>
+          <a href="#">Basic Plan</a>
+          <a href="#">Pro Plan</a>
+          <a href="#">Enterprise</a>
+        </div>
 
-    <div class="footer-services">
-      <h4>Services</h4>
-      <a href="#">Basic Plan</a>
-      <a href="#">Pro Plan</a>
-      <a href="#">Enterprise</a>
-    </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: contact@company.com</p>
+          <p>Phone: +1 000 000 000</p>
+        </div>
+      </div>
 
-    <div class="footer-contact">
-      <h4>Contact</h4>
-      <p>Email: contact@company.com</p>
-      <p>Phone: +1 000 000 000</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Caio Duarte. All Rights Reserved.</p>
-  </div>
-</footer>
+      <div class="footer-bottom">
+        <p>© 2026 Caio Duarte. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
