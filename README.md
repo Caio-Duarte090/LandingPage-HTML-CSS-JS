@@ -10,6 +10,8 @@ Since I am in the early stages of learning JavaScript, this project also serves 
 
 Ultimately, this project demonstrates both my growing skills and my approach to learning through building, providing a tangible example of how I integrate new knowledge into real projects.
 
+<img src="images\Page_gif.gif">
+
 ## Technologies
 
 - HTML5
